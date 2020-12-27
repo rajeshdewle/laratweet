@@ -8,8 +8,8 @@
         <div class="w-1/6 border-r border-gray-400">
             @include('layouts.sidebar-links')
         </div>
-        <div class="flex-1 py-4">
-            <h1 class="px-4 font-bold text-lg">Home</h1>
+        <div class="flex-1">
+            <h1 class="p-4 font-bold text-lg">Home</h1>
             <div class="border-t border-b border-gray-400 p-2">
                 <form action="/">
                     <textarea name="body" cols="30" rows="5" placeholder="What's happening?"
